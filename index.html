@@ -1,0 +1,17 @@
+<div class="section">
+    <label for="apiKey">مفتاح الذكاء الاصطناعي (Gemini API Key):</label>
+    <input type="password" id="apiKey" placeholder="أدخل مفتاح الـ API هنا...">
+</div>
+
+<div class="section">
+    <label for="audioFile">اختر ملفاً صوتياً (خطبة أو محاضرة):</label>
+    <input type="file" id="audioFile" accept="audio/*">
+</div>
+
+<div class="section">
+    <label for="transcript">النص المفرغ:</label>
+    <textarea id="transcript" placeholder="سيظهر النص المفرغ هنا أو يمكنك الكتابة والتعديل يدوياً..."></textarea>
+    
+    <button onclick="copyText()">نسخ النص</button>
+    <button class="btn-gold" onclick="downloadTXT()">تحميل كملف نصي (TXT)</button>
+</div>
